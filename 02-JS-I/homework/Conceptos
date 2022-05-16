@@ -1,0 +1,28 @@
+Variables: Las variables guardan algun tipo de valor (numérico, de caracter, booleano etc), su existencia
+debe ser declarada antes de usarla, en el caso de Javascript, no es necesario declarar el tipo de variable
+debido a su flexibilidad, podemos hacer uso de ellas bajo un identificador (nombre de la variable) y el 
+valor que guardan puede ser reasignado mas de una vez durante la ejecución de nuestro código.
+
+Strings (cadenas de carcteres): Son una serie de caracteres concatenados que juntos forman una variable.
+
+Funciones: Son fragmentos de código que ejecutan una serie de instrucciones, pueden o no tener argumentos,
+por lo general las creamos para obtener un valor el cual puede ser impreso por la consola pero se 
+recomienda que mejor se retorne y tienen un alcance (scope) limitado por sus corchetes que delimitan 
+su principio y fin.
+
+    Argumentos: Son los valores declarados previamente en nuestro código con los que va a trabajar nuestra 
+    función. Normalmente son utilizados pero no son estrictamente necesarios para que una función funcione
+
+    Return: Esta es la palabra clave con la que vamos a devolver o retornar el valor que nuestra función 
+    haya calculado, lo que nos dará el dato para lo cual fue creada la función, cabe mencionar que se 
+    coloca estrictamente al final de una función por que marca un alto en su ejecución.
+
+Declaraciones If: Es un controlador de flujo. Ejecuta diferentes instrucciones según se cumpla o no una 
+condición, o serie de condicines, ya que se puede anidar.
+
+Valores booleanos: Son valores de verdad que se aplican a condiciones de controladores de flujo o 
+variables no numéricas que nos interesa que sean binarias.
+
+    True: Verdadero.
+
+    False: Falso.
