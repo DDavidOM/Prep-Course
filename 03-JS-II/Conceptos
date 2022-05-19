@@ -1,0 +1,20 @@
+For: Es un ciclo, la forma que tenemos para ejecutar una serie de instrucciones repetidas veces. 
+se compone de tres partes: variable (de tipo let para que su uso esté limitado solo al alcance 
+del ciclo), condición e incremento. La variable establece un valor, el incremento eleva el valor 
+de la variable para realizar otra iteración una vez terminada la anterior y la condición es comparada 
+con cada incremento, cuando la condición deja de cumplirse el ciclo se detiene.
+
+Operadores lógicos: Devuelven valores booleanos y se usan principalmente para establecer condiciónes mas 
+complejas.
+
+&&: Doble ampersand. Concatena dos o mas condiciones, de esta manera, para que se ejecuten las 
+instrucciones, todas las condiciones deben cumplirse sino devolverá _false_ y se continuará con la 
+siguiente sentencia.
+
+||:Doble linea vertical. Nos da mas de una posibilidad, nos permite establecer mas condiciones que pueden 
+ser válidas para que se ejecute una serie de instrucciones, de esta manera basta con que una sola se 
+cumpla para que ocurra sino se cumple ninguna devolverá _false_ y se continuará con la siguiente 
+sentencia.
+
+!:Negación: Permite invertir el valor de verdad de una condición, es importante encerrar entre parentesis 
+la condición a la que queremos invertirle su valor de verdad despues de escribir el símbolo '!'.
