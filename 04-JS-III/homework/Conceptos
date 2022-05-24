@@ -1,0 +1,14 @@
+Arrays: Los arrays son conjuntos datos ordenados por índices, dentro del arreglo forman parte de un todo y se pueden llevar a cabo acciones a uno solo o a todos ellos llamandolos por un solo identificador. Ya que en Javascript el tipeo de datos es muy flexible, los arrays pueden contener diferentes tipos de datos, incluso funciones y otros arrays.
+
+La clave de su uso está en los índices, podemos añadir o eliminar elementos de una posición específica 
+gracias a este, la única pequeña dificultad es que los arrays comienzan a contar desde cero, es decir, 
+el primer índice tiene el elemnto "cero". También se puede acceder al índice de un array a través de una variable que tenga asignado un índice válido, si una variable "i" tiene asignado el cero, podemos usar i para acceder al primer elemento de un array, cabe mencionar que existen arrays vacíos y por último existen elentos vacíos en caso de que añadamos elemetos pero dejemos índices sin elementos en el proceso.
+
+Métodos incorporados:
+
+.Lenght: Nos permite utilizar el dato del número de elementos de un array, por el mismo problema anterior,
+aveces le restaremos un elemento (-1) en algunos casos.
+
+".push" y ".unshift": Nos permite añadir un elemento al final o al principio de un array respectivamente, esto es muy útil cuando no conocemos el nnúmero de elementos de un array o cuando este pueda variar.
+
+".pop" y ".shift": Hacen lo contrario, eliminan pero a la vez DEVUELVEN un elemento al final o al principio de un array respectivamente, si no hay elemntos que se puedan eliminar, devolverán "undefined"
