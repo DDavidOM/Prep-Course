@@ -206,7 +206,7 @@ function esPrimo(numero) {
   if(numero===1 || numero===0){
     return primo = false;
   }
-  for(i = 0; i<=numero; i++){
+  for(i = 1; i<=numero; i++){
     if(numero/i!==numero && numero/i!==1){
       primo = false;
       if(Number.isInteger(numero/i)){
